@@ -1,0 +1,38 @@
+{
+    "job_title": "AI Engineer - LLM Applications",
+    "experience": {
+        "minimum_years": 1,
+        "preferred_years": 2
+    },
+    "required_skills": [
+        "Python",
+        "LLM APIs",
+        "Prompt Engineering",
+        "REST APIs",
+        "Git",
+        "SQL or NoSQL"
+    ],
+    "preferred_skills": [
+        "RAG",
+        "LangChain",
+        "Machine Learning",
+        "NLP",
+        "Docker",
+        "CI/CD"
+    ],
+    "required_languages": [
+        "English"
+    ],
+    "preferred_languages": [
+        "Hindi"
+    ],
+    "required_domain_experience": [
+        "AI-powered applications",
+        "LLM applications"
+    ],
+    "preferred_domain_experience": [
+        "RAG",
+        "NLP",
+        "Machine Learning"
+    ]
+}

@@ -1,0 +1,65 @@
+Job Title: AI Engineer - LLM Applications
+
+About the Role:
+
+We are looking for a junior AI Engineer with hands-on
+experience building full-stack AI-powered applications,
+LLM-integrated software, secure backend systems, and
+production-ready web applications.
+
+Requirements:
+
+- Strong programming experience with Python.
+- Experience building AI-powered applications.
+- Experience building full-stack software applications.
+- Experience integrating LLM APIs, including Google Gemini.
+- Knowledge of prompt engineering.
+- Experience building REST APIs and backend services.
+- Experience with Node.js and Express.js.
+- Experience working with Git and GitHub.
+- Experience with MongoDB, PostgreSQL, or MySQL.
+- Experience with React.js, Next.js, TypeScript, and JavaScript.
+- Experience with JWT authentication and secure API development.
+- Experience with role-based access control (RBAC).
+- Experience with modern web application development.
+
+Preferred Qualifications:
+
+- Experience building AI-powered developer tools.
+- Experience building AI code review applications.
+- Experience with LLM-based code analysis.
+- Experience with Google Gemini API.
+- Experience with Redis caching and performance optimization.
+- Experience with Docker.
+- Experience with CI/CD and GitHub Actions.
+- Experience deploying applications using Render or Vercel.
+- Experience with Clerk authentication.
+- Experience with automated testing and integration testing.
+- Experience with Vitest, React Testing Library, or MSW.
+- Experience with PostgreSQL and Prisma ORM.
+- Experience optimizing backend API performance and database usage.
+
+Domain Experience:
+
+Candidates with hands-on experience building AI-powered
+applications and LLM-integrated software are preferred.
+
+Experience developing practical applications such as
+AI code review systems, intelligent developer tools,
+AI-assisted software, or similar LLM-powered applications
+is highly valued.
+
+Experience with secure REST APIs, authentication,
+role-based access control, databases, Redis caching,
+automated testing, CI/CD, and production deployment
+is also valued.
+
+Experience:
+
+- 0-1 years of professional software engineering,
+  full-stack development, or AI application development
+  experience.
+- Strong project-based software development experience
+  is considered relevant.
+- Internship or equivalent practical development
+  experience is acceptable.
