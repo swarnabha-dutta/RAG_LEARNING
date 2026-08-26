@@ -42,7 +42,7 @@ response=client.chat.completions.create(
 
 print(response.choices[0].message.content)
 
-# models = client.models.list()
+models = client.models.list()
 
-# for model in models.data:
-#     print(model.id)
+for model in models.data:
+    print(model.id)
