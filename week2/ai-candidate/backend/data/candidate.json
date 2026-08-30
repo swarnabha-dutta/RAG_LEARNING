@@ -1,0 +1,288 @@
+{
+    "personal": {
+        "name": "Swarnabha Dutta",
+        "role": "Full Stack Developer",
+        "location": "Kolkata, West Bengal, India",
+        "email": "swarnabhadutta909@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/swarnabhadutta909",
+        "github": "https://github.com/swarnabha-dutta",
+        "portfolio": "https://animated-3-d-portfolio.vercel.app/"
+    },
+    "summary": "I build backend systems that are fast, secure, and production-ready — then I make them faster. As a Full Stack Engineer specializing in MERN, TypeScript, and AI integration, I’ve shipped systems that cut API response times by 93% (19s → 1.3s) and improved cached response speed by 667% through intelligent Redis caching strategies. Experienced in integrating LLM APIs, building secure multi-role authentication systems, and delivering end-to-end fullstack features on production infrastructure.",
+    "education": [
+        {
+            "institution": "Guru Nanak Institute of Technology",
+            "degree": "B.Tech in Electronics and Communication Engineering",
+            "location": "Kolkata, West Bengal",
+            "period": "Aug 2021 - Jun 2025",
+            "highlights": [
+                "CGPA: 8.33/10"
+            ]
+        }
+    ],
+    "skills": {
+        "frontend": [
+            "React.js",
+            "Next.js",
+            "TypeScript",
+            "JavaScript (ES6+)",
+            "HTML5",
+            "CSS3",
+            "Redux",
+            "Tailwind CSS"
+        ],
+        "backend": [
+            "Node.js",
+            "Express.js",
+            "REST APIs",
+            "Python",
+            "JWT Authentication"
+        ],
+        "database": [
+            "MongoDB",
+            "PostgreSQL",
+            "MySQL",
+            "Prisma ORM"
+        ],
+        "caching": [
+            "Redis",
+            "Upstash"
+        ],
+        "ai": [
+            "LLM APIs",
+            "Google Gemini",
+            "Prompt Engineering",
+            "AI Application Integration",
+            "Vapi",
+            "ElevenLabs"
+        ],
+        "devops": [
+            "Git",
+            "GitHub",
+            "Docker",
+            "Render",
+            "Vercel",
+            "GitHub Actions",
+            "CI/CD"
+        ],
+        "security": [
+            "JWT",
+            "RBAC",
+            "Clerk",
+            "BetterAuth",
+            "Authentication",
+            "Authorization"
+        ],
+        "languages": [
+            "JavaScript",
+            "TypeScript",
+            "Python",
+            "Java"
+        ]
+    },
+    "experience": [
+        {
+            "company": "Prodigy Infotech",
+            "role": "Frontend Web Development Intern",
+            "type": "Remote",
+            "period": "Nov 2024 - Dec 2024",
+            "responsibilities": [
+                "Delivered 4 production-grade responsive web applications within weekly sprint cycles.",
+                "Worked with version control workflows and deadline-driven delivery in a professional codebase environment.",
+                "Implemented UI/UX features including smooth scrolling, hover animations, and dynamic content rendering using vanilla JavaScript and DOM manipulation."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "AI Code Reviewer",
+            "type": "Full Stack AI-Powered Code Analysis Platform",
+            "period": "Mar 2025 - Jun 2025",
+            "description": "A production-grade AI code review platform that analyzes uploaded or pasted source code for bugs, security vulnerabilities, anti-patterns, and performance optimization opportunities.",
+            "technologies": [
+                "React",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Redis",
+                "Google Gemini",
+                "Docker",
+                "TypeScript"
+            ],
+            "highlights": [
+                "Reduced API latency by 93% through intelligent Redis caching.",
+                "Improved cached response speed by 667%.",
+                "Reduced redundant Gemini API requests and MongoDB queries by 82.4%.",
+                "Achieved Lighthouse Performance score of 98.",
+                "Built 137+ automated tests with over 84% line coverage.",
+                "Implemented JWT authentication and centralized error handling.",
+                "Implemented automated production deployment."
+            ],
+            "github": "https://github.com/swarnabha-dutta/AI_Code_Reviewer",
+            "live": "https://ai-code-reviewer-frontend-feb.onrender.com"
+        },
+        {
+            "name": "Bookify",
+            "type": "AI Voice Learning Platform",
+            "description": "An AI-powered SaaS platform that converts static PDFs into interactive voice-based learning experiences.",
+            "technologies": [
+                "Next.js",
+                "TypeScript",
+                "MongoDB",
+                "Clerk",
+                "Vapi",
+                "ElevenLabs",
+                "PostHog"
+            ],
+            "highlights": [
+                "Semantic search over PDF content using vector embeddings.",
+                "PDF processing with intelligent chunking and indexing.",
+                "Real-time voice conversation using Vapi and ElevenLabs.",
+                "Subscription management with usage-based throttling.",
+                "Product analytics using PostHog."
+            ],
+            "github": "https://github.com/swarnabha-dutta/bookify",
+            "live": "https://github.com/swarnabha-dutta/bookify"
+        },
+        {
+            "name": "StockPilot",
+            "type": "Real-Time AI Stock Intelligence",
+            "description": "A real-time stock intelligence dashboard combining TradingView charts with Gemini-powered AI insights.",
+            "technologies": [
+                "Next.js",
+                "TypeScript",
+                "PostgreSQL",
+                "Prisma",
+                "Gemini AI",
+                "BetterAuth",
+                "TradingView"
+            ],
+            "highlights": [
+                "TradingView integration for real-time stock charts.",
+                "Gemini-powered contextual AI insights.",
+                "Persistent watchlists backed by PostgreSQL and Prisma.",
+                "Secure session management using BetterAuth."
+            ],
+            "github": "https://github.com/swarnabha-dutta/stock_pilot",
+            "live": "https://stock-pilot-tau.vercel.app"
+        },
+        {
+            "name": "HealthCheckBuddy",
+            "type": "Full Stack Healthcare SaaS Platform",
+            "description": "A healthcare platform supporting Patients, Doctors, and Admins with secure role-based workflows.",
+            "technologies": [
+                "Next.js",
+                "PostgreSQL",
+                "Prisma",
+                "Clerk",
+                "Vonage Video API"
+            ],
+            "highlights": [
+                "Doctor verification and appointment booking.",
+                "Credit management and atomic database transactions.",
+                "Real-time doctor-patient video consultations.",
+                "Role-based access control.",
+                "Multi-layer security architecture.",
+                "Secure token generation and session management."
+            ],
+            "github": "https://github.com/swarnabha-dutta/Health_Check_Buddy",
+            "live": "https://health-check-buddy.vercel.app"
+        },
+        {
+            "name": "Animated 3D Portfolio",
+            "type": "Interactive 3D Developer Portfolio",
+            "description": "An immersive Three.js-powered developer portfolio focused on visual experience and performance.",
+            "technologies": [
+                "React",
+                "Vite",
+                "Three.js",
+                "Tailwind CSS"
+            ],
+            "highlights": [
+                "Achieved 99/100 Lighthouse Performance score.",
+                "Built immersive 3D scenes and animations.",
+                "Focused on performance and responsive user experience."
+            ],
+            "github": "https://github.com/swarnabha-dutta/Animated_3D_portfolio",
+            "live": "https://animated-3-d-portfolio.vercel.app"
+        }
+    ],
+    "achievements": [
+        "284+ LeetCode problems solved covering DSA and Algorithms.",
+        "93% API latency reduction through intelligent Redis caching.",
+        "667x cached response performance improvement.",
+        "82% AI API cost reduction through caching.",
+        "99/100 Lighthouse Performance score for the 3D portfolio.",
+        "137+ automated tests written for AI Code Reviewer.",
+        "Over 84% line coverage achieved in AI Code Reviewer.",
+        "5 production SaaS applications shipped according to GitHub profile.",
+        "3 authentication systems delivered using Clerk, JWT, and BetterAuth.",
+        "3 AI integrations built using Gemini, Vapi, and ElevenLabs.",
+        "GitHub YOLO achievement earned twice."
+    ],
+    "additional_information": {
+        "working_habits": [
+            "I maintain a journal while working on my projects and document the issues I face in particular projects to improve my debugging skills."
+        ],
+        "learning_and_problem_solving": [
+            "I solve DSA problems and also teach those problems to my juniors to help them while improving my own understanding of the topics."
+        ],
+        "current_learning": [
+            "I am currently learning AI and Machine Learning.",
+            "I am currently learning Agentic AI and agent-based application development.",
+            "I am currently learning Retrieval-Augmented Generation (RAG).",
+            "I am currently learning modern AI application development and related LLM technologies."
+        ]
+    },
+    "certifications": [],
+    "github_profile": {
+        "username": "swarnabha-dutta",
+        "profile_url": "https://github.com/swarnabha-dutta",
+        "public_repositories": 44,
+        "followers": 0,
+        "following": 3,
+        "current_focus": [
+            "Architecting AI-first SaaS products",
+            "Backend performance",
+            "Caching",
+            "Latency optimization",
+            "Throughput",
+            "Distributed Systems",
+            "System Design"
+        ],
+        "professional_focus": [
+            "Full Stack Engineering",
+            "Backend Engineering",
+            "AI Product Development"
+        ],
+        "open_to": [
+            "Remote Full-Stack Engineer roles",
+            "Remote Backend Engineer roles",
+            "AI product teams building at scale"
+        ],
+        "engineering_depth": {
+            "backend_performance": "Obsessive",
+            "distributed_caching": "Deep",
+            "saas_architecture": "Shipping",
+            "ai_product_integration": "Growing fast",
+            "auth_security_systems": "Solid",
+            "system_design": "Actively learning"
+        },
+        "impact_metrics": {
+            "production_saas_apps_shipped": 5,
+            "api_latency_reduction_percent": 93,
+            "cache_performance_gain": "667x",
+            "ai_api_cost_reduction_percent": 82,
+            "lighthouse_performance_score": "99/100",
+            "auth_systems_delivered": 3,
+            "ai_integrations_built": 3
+        },
+        "goals_2026": [
+            "Ship 10+ production applications",
+            "Solve 500+ LeetCode problems",
+            "Make a meaningful open source contribution",
+            "Go deeper into distributed systems and system design",
+            "Build an AI-first SaaS with real paying users"
+        ]
+    }
+}
