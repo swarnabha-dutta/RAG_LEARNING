@@ -289,7 +289,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/chat",
+        `${import.meta.env.VITE_API_URL}/chat`,
         {
           method: "POST",
 
@@ -340,7 +340,7 @@ function App() {
       console.error(error);
 
       setAnswer(
-        "Unable to connect to the AI Candidate backend. Make sure FastAPI is running on http://127.0.0.1:8000."
+        "Unable to connect to the AI Candidate backend."
       );
     } finally {
       setLoading(false);
