@@ -12,8 +12,13 @@ from llm import stream_llm
 
 app = FastAPI()
 
+
+# --------------------------------------------------
+# CORS
+# --------------------------------------------------
+
 configured_origins = [
-    origin.strip()
+    origin.strip().rstrip("/")
     for origin in os.getenv("FRONTEND_URLS", "").split(",")
     if origin.strip()
 ]
@@ -21,8 +26,13 @@ configured_origins = [
 allow_origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
+    "https://ai-candidate-xi.vercel.app",
     *configured_origins,
 ]
+
+# Remove duplicates while preserving order
+allow_origins = list(dict.fromkeys(allow_origins))
+
 
 app.add_middleware(
     CORSMiddleware,
@@ -32,13 +42,27 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+# --------------------------------------------------
+# Candidate data
+# --------------------------------------------------
+
 candidate = load_candidate()
+
 system_prompt = build_system_prompt(candidate)
 
+
+# --------------------------------------------------
+# Request schema
+# --------------------------------------------------
 
 class ChatRequest(BaseModel):
     question: str
 
+
+# --------------------------------------------------
+# Health check
+# --------------------------------------------------
 
 @app.get("/")
 def home():
@@ -47,22 +71,27 @@ def home():
     }
 
 
+# --------------------------------------------------
+# Chat endpoint
+# --------------------------------------------------
+
 @app.post("/chat")
 def chat(request: ChatRequest):
+
     messages = [
         {
             "role": "system",
-            "content": system_prompt
+            "content": system_prompt,
         },
         {
             "role": "user",
-            "content": request.question
-        }
+            "content": request.question,
+        },
     ]
 
     print("DEBUG MESSAGES:", messages)
 
     return StreamingResponse(
         stream_llm(messages),
-        media_type="text/plain"
+        media_type="text/plain",
     )
