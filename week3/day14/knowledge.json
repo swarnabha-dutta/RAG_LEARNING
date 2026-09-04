@@ -1,6 +1,16 @@
-    [
+[
     {
         "text": "Employees receive 24 days of paid leave per year.",
+        "category": "leave",
+        "is_active": true
+    },
+    {
+        "text": "Employees can take up to 10 days of sick leave per year.",
+        "category": "leave",
+        "is_active": true
+    },
+    {
+        "text": "Employees receive 12 days of casual leave per year.",
         "category": "leave",
         "is_active": true
     },
@@ -15,6 +25,11 @@
         "is_active": true
     },
     {
+        "text": "Employees must work from the office at least three days per week.",
+        "category": "workplace",
+        "is_active": true
+    },
+    {
         "text": "Employees receive Rs 3000 per month for gym reimbursement.",
         "category": "reimbursement",
         "is_active": true
@@ -25,8 +40,68 @@
         "is_active": true
     },
     {
+        "text": "Employees can claim up to Rs 5000 per year for medical expenses.",
+        "category": "reimbursement",
+        "is_active": true
+    },
+    {
         "text": "Employees have a 90 day notice period.",
         "category": "career",
         "is_active": true
+    },
+    {
+        "text": "Employees become eligible for promotion after completing one year in their current role.",
+        "category": "career",
+        "is_active": true
+    },
+    {
+        "text": "Employees can apply for internal job openings after six months in their current position.",
+        "category": "career",
+        "is_active": true
+    },
+    {
+        "text": "Employees must mark their attendance before starting work each day.",
+        "category": "attendance",
+        "is_active": true
+    },
+    {
+        "text": "Employees are expected to complete at least eight working hours each day.",
+        "category": "attendance",
+        "is_active": true
+    },
+    {
+        "text": "Employees must inform their manager if they are unable to attend work.",
+        "category": "attendance",
+        "is_active": true
+    },
+    {
+        "text": "Employees receive health insurance coverage as part of their benefits.",
+        "category": "benefits",
+        "is_active": true
+    },
+    {
+        "text": "Employees receive life insurance coverage as part of their employee benefits.",
+        "category": "benefits",
+        "is_active": true
+    },
+    {
+        "text": "Employees receive meal benefits during regular working days.",
+        "category": "benefits",
+        "is_active": true
+    },
+    {
+        "text": "Employees can participate in technical training programs to improve their skills.",
+        "category": "training",
+        "is_active": true
+    },
+    {
+        "text": "Employees can attend communication and leadership training sessions.",
+        "category": "training",
+        "is_active": true
+    },
+    {
+        "text": "Employees can request training courses related to their current job responsibilities.",
+        "category": "training",
+        "is_active": true
     }
-    ]
+]
